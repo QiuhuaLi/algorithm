@@ -1,0 +1,33 @@
+第一题：寻找一个字符串中，有趣的字符（此字符至少与相邻的两个字符不相等）
+		function findCoin(nums){
+			var n=0;
+			for(var i=0;i<nums.length;i++){
+				if(i==0){
+					nums[i]==nums[i+1]?n:n++;
+				}else if(i==nums.length-1){
+					nums[i-1]==nums[i]?n:n++;
+				}else{
+					nums[i]!=nums[i-1]?n++:(nums[i]!=nums[i+1]?n++:n);
+				}
+			}
+			return n;
+		}
+		var nums=["H","H","T","H","H","H"];
+		console.log(findCoin(nums))
+    
+第二题：给一个数,要找到一个数能被1~n之间的所有的数整除的数
+    var n=3;
+			var p="";
+			var m=n;
+			while(p!="stop"){
+			    for(var i=1;i<=n;i++){
+			        if((m%i)!=0){
+			            break;
+			        }else if(i==n){
+			            p="stop";
+			            console.log(m);
+			            break;
+			        }
+			    }
+			    m++;
+			}
