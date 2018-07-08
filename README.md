@@ -1,3 +1,4 @@
 # algorithm
-Some impressing example
-form LeetCode  
+学习过程当中遇到的一些算法题。
+有笔试面试的算法题（目前只写了笔试遇见过的算法题）。和《剑指offer》上相关的算法题。
+不积跬步无以至千里，加油。 
