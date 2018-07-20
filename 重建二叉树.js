@@ -8,18 +8,17 @@
 'use strict';
 function reConstructBinaryTree(pre, vin)
 {
-    // if (!vin || vin.length === 0) {
-    //     return;
-    // }
-    var treeNode = {
-        val: pre[0]
-    }
+    if(pre[0]){
+        var treeNode = {
+            val: pre[0]
+        }
     for(var i = 0; i < pre.length; i++) {
         if (vin[i] === pre[0]) {
         	//递归调用函数，通过找到前项遍历和中序遍历的数组来找到相应的节点的值。
             treeNode.left = reConstructBinaryTree(pre.slice(1, i+1), vin.slice(0, i));
             treeNode.right = reConstructBinaryTree(pre.slice(i+1),vin.slice(i+1));
         }
+    }
     }
     return treeNode;
     console.log(treeNode)
