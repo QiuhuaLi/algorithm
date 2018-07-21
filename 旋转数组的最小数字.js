@@ -34,6 +34,8 @@ function minInOrder(arr,i,j){
 	for(var o=i+1;o<len;o++){
 		if(arr[o]<arr[j]){
 			return arr[o];
+		}else if(arr[o]===arr[o+1]&&o==j-1){//解决输入的数组全相等的情况eg:[1,1,1,1,1,1]
+			return arr[j];
 		}
 	}
 }
