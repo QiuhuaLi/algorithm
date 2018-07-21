@@ -43,3 +43,18 @@ console.log(min([3,4,5,1,2]));//1
 console.log(min([1,0,1,1,1]));//0
 console.log(min([4,5,6,7,3]));//3
 console.log(min([2,3,4,5,6]));//2
+//添加测试函数，测试函数的执行时间
+function test(func){
+ 
+ var start = new Date().getTime();//起始时间
+  console.log(start);
+ 
+ func([3,4,5,1,2]);//执行待测函数
+ 
+ var end = new Date().getTime();//接受时间
+  console.log(end);
+ 
+ return (end - start)+"ms";//返回函数执行需要时间
+ 
+}
+console.log(test(minNumberInRotateArray));
