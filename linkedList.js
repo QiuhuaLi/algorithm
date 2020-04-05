@@ -19,11 +19,10 @@ function linkedList(){
 		var current=null;
 		if(head===null){
 			head=node;
-			
 		}else{
 			current=head;
 			while(current.next){
-			current=current.next
+				current=current.next
 			}
 			current.next=node;
 		}
@@ -31,7 +30,7 @@ function linkedList(){
 	}
 	//删除链表中特定位置的节点
 	this.removeAt=function(position){
-		if(position>-1&&length!=0){//有效性检测
+		if(position>-1&&this.length!=0){//有效性检测
 		var current=head;//用current循环列表
 		var previous;//保存删除节点前的节点
 		var index=0;
