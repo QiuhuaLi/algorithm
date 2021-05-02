@@ -1,6 +1,6 @@
 Array 实战题目
 * https://leetcode-cn.com/problems/container-with-most-water/          2
-* https://leetcode-cn.com/problems/move-zeroes/                    1
+* https://leetcode-cn.com/problems/move-zeroes/                    2
 * https://leetcode.com/problems/climbing-stairs/              2
 * https://leetcode-cn.com/problems/two-sum/         2
 * https://leetcode-cn.com/problems/3sum/ (高频老题)                1
@@ -26,7 +26,22 @@ hashMap 实战题目
 * https://leetcode-cn.com/problems/binary-tree-preorder-traversal/ 1
 * https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/ 1
 * https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/ 1
-* https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+* https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/ 1
+
+递归实战题目
+* https://leetcode-cn.com/problems/climbing-stairs/
+* https://leetcode-cn.com/problems/generate-parentheses/
+* https://leetcode-cn.com/problems/invert-binary-tree/description/
+* https://leetcode-cn.com/problems/validate-binary-search-tree
+* https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+* https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
+* https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+* 如何优雅地计算斐波那契数列
+* https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+* https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+* https://leetcode-cn.com/problems/combinations/
+* https://leetcode-cn.com/problems/permutations/
+* https://leetcode-cn.com/problems/permutations-ii/
 
 help web:
 * [树的遍历 Demo](https://visualgo.net/zh/bst)
