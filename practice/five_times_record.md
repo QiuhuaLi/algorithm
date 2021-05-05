@@ -29,11 +29,11 @@ hashMap 实战题目
 * https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/ 1
 
 递归实战题目
-* https://leetcode-cn.com/problems/climbing-stairs/
-* https://leetcode-cn.com/problems/generate-parentheses/
-* https://leetcode-cn.com/problems/invert-binary-tree/description/
-* https://leetcode-cn.com/problems/validate-binary-search-tree
-* https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+* https://leetcode-cn.com/problems/climbing-stairs/   1
+* https://leetcode-cn.com/problems/generate-parentheses/ 1
+* https://leetcode-cn.com/problems/invert-binary-tree/description/ 1
+* https://leetcode-cn.com/problems/validate-binary-search-tree 1
+* https://leetcode-cn.com/problems/maximum-depth-of-binary-tree 1
 * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
 * https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
 * 如何优雅地计算斐波那契数列
